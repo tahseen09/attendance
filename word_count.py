@@ -1,5 +1,6 @@
 import pandas as pd
 
-csv = pd.read_csv("OS.csv")
+path = "OS.csv"
+csv = pd.read_csv(path)
 count = csv['Roll'].value_counts()
 print(count)
